@@ -6,3 +6,7 @@
 4. Install dependencies: `pip install -r requirements.txt`
 5. Run migrattions: `python manage.py migrate`
 6. Load Sample Data (Optional) : `python manage.py loaddata sample_data.json`
+
+## Product features
+1. Add products using admin interface
+2. Search using name or description or filter functionality using tags or categories
