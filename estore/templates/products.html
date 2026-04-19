@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Products
+        </title>
+    </head>
+    <body>
+        <h1>Products Page</h1>
+        <form method="GET">
+            {{form.as_p}}
+            <button type="submit">Search</button>
+        </form>
+        <hr>
+        
+        <table border="1">
+            <tr>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Tags</th>
+            </tr>
+            {% for product in products %}
+            <tr>
+                <td>{{product.name}}</td>
+                <td>{{product.price}}</td>
+                <td>{{product.category.name}}</td>
+                <td>
+                    {% for tag in product.tags.all %}
+                    {{tag.name}}
+                    {% endfor %}
+                </td>
+            </tr>
+            {% endfor %}
+        </table>
+        {% if is_paginated %}
+        <div style="margin-top: 20px;">
+
+            {% if page_obj.has_previous %}
+
+                <a href="?{{querystring}}&page={{page_obj.previous_page_number}}">
+                    Previous
+                </a>
+
+            {% endif %}
+
+            <span style="margin: 0 10px;">
+                Page {{page_obj.number}} of {{page_obj.paginator.num_pages}}
+            </span>
+
+            {% if page_obj.has_next %}
+            <a href="?{{querystring}}&page={{page_obj.next_page_number}}">
+                Next
+            </a>
+            {% endif %}
+
+        </div>
+        {% endif %}
+    </body>
+</html>
