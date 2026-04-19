@@ -28,6 +28,7 @@ class ProductQuerySet(models.QuerySet):
         if tag:
             queryset = queryset.filter(tags = tag)
         
+        # using distinct because tag are many to many and can produce duplicate products
         return queryset.distinct()
     
 class Product(models.Model):

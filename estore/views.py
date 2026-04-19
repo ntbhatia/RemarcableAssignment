@@ -27,6 +27,7 @@ class ProductListView(ListView):
         query = self.request.GET.copy()        
         query.pop('page', None)
         
+        # Keeps filter params in pagination links
         context['querystring'] = query.urlencode()
         context['form'] = self.form
         return context
