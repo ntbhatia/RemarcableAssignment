@@ -1,0 +1,360 @@
+[
+{
+  "model": "estore.category",
+  "pk": 1,
+  "fields": {
+    "name": "Electronics"
+  }
+},
+{
+  "model": "estore.category",
+  "pk": 2,
+  "fields": {
+    "name": "Clothes"
+  }
+},
+{
+  "model": "estore.category",
+  "pk": 3,
+  "fields": {
+    "name": "Home Decor"
+  }
+},
+{
+  "model": "estore.category",
+  "pk": 4,
+  "fields": {
+    "name": "Footwear"
+  }
+},
+{
+  "model": "estore.category",
+  "pk": 5,
+  "fields": {
+    "name": "Beauty"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 1,
+  "fields": {
+    "name": "New"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 3,
+  "fields": {
+    "name": "Best Sellers"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 4,
+  "fields": {
+    "name": "Recommended"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 5,
+  "fields": {
+    "name": "pre-order"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 6,
+  "fields": {
+    "name": "Summer"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 7,
+  "fields": {
+    "name": "Back to School"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 8,
+  "fields": {
+    "name": "Gift Idea"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 9,
+  "fields": {
+    "name": "Limited Time Deal"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 10,
+  "fields": {
+    "name": "Sale"
+  }
+},
+{
+  "model": "estore.tag",
+  "pk": 11,
+  "fields": {
+    "name": "Free Delivery"
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 3,
+  "fields": {
+    "name": "K-Beauty Face Mask",
+    "description": "Sheet mask that can be used as overnight mask! Formulated with Collagen and Hyaluronic Acid",
+    "price": "9.99",
+    "category": 5,
+    "created_at": "2026-04-19T19:37:51.044Z",
+    "tags": [
+      3,
+      5,
+      8
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 4,
+  "fields": {
+    "name": "Rosemary Oil",
+    "description": "Rosemary Oil for hair Growth",
+    "price": "23.99",
+    "category": 5,
+    "created_at": "2026-04-19T19:40:16.132Z",
+    "tags": [
+      4
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 5,
+  "fields": {
+    "name": "Tinted Lip Oil",
+    "description": "Tinted Lip Oil For A High-shine Finish, Infused With Jojoba Oil, Vegan & Cruelty-free",
+    "price": "8.90",
+    "category": 5,
+    "created_at": "2026-04-19T19:41:43.315Z",
+    "tags": [
+      3,
+      8,
+      9
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 6,
+  "fields": {
+    "name": "CeraVe Salicylic Acid Cleanser",
+    "description": "Exfoliating Face Wash With Vitamin D for Normal Skin, Fragrance Free",
+    "price": "15.99",
+    "category": 5,
+    "created_at": "2026-04-19T19:42:57.062Z",
+    "tags": [
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 7,
+  "fields": {
+    "name": "TideWe Rain Suit",
+    "description": "Waterproof Raincoat Breathable Lightweight 2 Pieces Rainwear for Men",
+    "price": "67.00",
+    "category": 2,
+    "created_at": "2026-04-19T19:44:15.339Z",
+    "tags": [
+      3,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 8,
+  "fields": {
+    "name": "Mens T-Shirts",
+    "description": "Soft, breathable cotton and Moisture wicking technology keeps you cool and dry",
+    "price": "32.00",
+    "category": 2,
+    "created_at": "2026-04-19T19:46:33.815Z",
+    "tags": [
+      7,
+      11
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 9,
+  "fields": {
+    "name": "Men's Linen Shirts",
+    "description": "Casual Shirts Button Down Shirt for Men Beach Summer Wedding Shirt",
+    "price": "40.00",
+    "category": 2,
+    "created_at": "2026-04-19T19:47:10.292Z",
+    "tags": [
+      8,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 10,
+  "fields": {
+    "name": "Joggers for Men",
+    "description": "Slim Fit Casual Chino Jogging Pants Stretch Elastic Waist Cotton Pantalon Homme",
+    "price": "37.99",
+    "category": 2,
+    "created_at": "2026-04-19T19:47:44.212Z",
+    "tags": [
+      4,
+      7,
+      11
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 11,
+  "fields": {
+    "name": "Slipper For Man And Women",
+    "description": "Slipper For Man And Women Pillow Slides Non-Slip Lightweight Open-toe Shower Shoes Quick Drying Extra Thick Sandals",
+    "price": "15.99",
+    "category": 4,
+    "created_at": "2026-04-19T19:50:19.089Z",
+    "tags": [
+      3,
+      4,
+      11
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 12,
+  "fields": {
+    "name": "Boots",
+    "description": "Women Rubber Rain Boots Non-Slip Waterproof Short Ankle Booties for Garden Outdoor Walking",
+    "price": "40.00",
+    "category": 4,
+    "created_at": "2026-04-19T19:50:49.143Z",
+    "tags": [
+      3,
+      4,
+      11
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 13,
+  "fields": {
+    "name": "Walking Shoes",
+    "description": "Wide Width Sneakers for Flat Foot Plantar Fasciitis Arch Support Heel Pain Relief",
+    "price": "99.00",
+    "category": 4,
+    "created_at": "2026-04-19T19:52:48.266Z",
+    "tags": [
+      8,
+      9,
+      11
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 14,
+  "fields": {
+    "name": "Black Heels",
+    "description": "Open Toe Heels For Women with Ankle Strap",
+    "price": "25.99",
+    "category": 4,
+    "created_at": "2026-04-19T19:54:49.955Z",
+    "tags": [
+      1,
+      3,
+      4
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 15,
+  "fields": {
+    "name": "Apple iPhone 16 Pro Max",
+    "description": "Apple iPhone 16 Pro Max, 256GB, White Titanium",
+    "price": "1500.00",
+    "category": 1,
+    "created_at": "2026-04-19T19:56:25.677Z",
+    "tags": [
+      4,
+      7,
+      8
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 16,
+  "fields": {
+    "name": "Samsung Galaxy Fit3",
+    "description": "Samsung Galaxy Fit3, 1.6\" AMOLED Display, 13 Days Battery Charge, Sleep Monitoring, Fall Detection - Dark Gray (CAD Version & Warranty)",
+    "price": "69.98",
+    "category": 1,
+    "created_at": "2026-04-19T19:57:49.938Z",
+    "tags": [
+      6,
+      7,
+      9,
+      10,
+      11
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 17,
+  "fields": {
+    "name": "Beats Studio Pro",
+    "description": "Beats Studio Pro - Wireless Bluetooth Noise Cancelling Headphones",
+    "price": "469.94",
+    "category": 1,
+    "created_at": "2026-04-19T19:58:45.291Z",
+    "tags": [
+      4,
+      6,
+      7,
+      11
+    ]
+  }
+},
+{
+  "model": "estore.product",
+  "pk": 18,
+  "fields": {
+    "name": "TP-Link Security Camera",
+    "description": "TP-Link Tapo Smart Pan/Tilt Indoor Security Camera, 360° Motion Tracking, 1080p Full HD WiFi Camera for Pet/Baby, Night Vision, 2-Way Audio, 128 GB Local Storage, Works w/Alexa & Google",
+    "price": "27.00",
+    "category": 1,
+    "created_at": "2026-04-19T19:59:46.242Z",
+    "tags": [
+      3
+    ]
+  }
+}
+]
